@@ -1,0 +1,41 @@
+{
+  "name": "leguass7",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "demo"
+  ],
+  "scripts": {
+    "storybook": "start-storybook",
+    "build": "lerna exec --parallel -- rollup -c ../../rollup.config.js",
+    "build:components": "lerna run build"
+  },
+  "peerDependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@rollup/plugin-url": "^5.0.0",
+    "@storybook/react": "^5.3.19",
+    "@svgr/rollup": "^5.4.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.1.0",
+    "lerna": "^3.22.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "rollup": "^2.11.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^3.1.1",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "boxcenter",
+  "version": "0.0.1",
+  "description": "box center",
+  "author": "leguass7 <leandro.sbrissa@hotmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "typings": "dist/index",
+  "scripts": {
+    "build": "rollup lib/index.js --config ../../rollup.config.js -o dist/index.js",
+    "storybook": "start-storybook"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "READEME.md"
+  ]
+}

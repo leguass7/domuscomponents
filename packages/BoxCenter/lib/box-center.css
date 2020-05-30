@@ -1,0 +1,32 @@
+.boxCenter {
+  height: 100vh;
+  max-height: auto;
+  width: 100%;
+  max-width: 100% !important;
+  position: relative;
+  display: block;
+  border: 0;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+.boxCenterColumn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 0;
+}
+
+.boxCenterColumn .boxCenterLine {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 0;
+  max-width: 100%;
+}

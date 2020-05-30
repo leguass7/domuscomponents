@@ -1,0 +1,9 @@
+34 error Error: Command failed: git commit -F C:\Users\AVATAR~1\AppData\Local\Temp\eb498315-6378-4bc4-99a5-e59b0ceeb7f2\lerna-commit.txt
+34 error On branch master
+34 error Your branch is up to date with 'origin/master'.
+34 error
+34 error nothing to commit, working tree clean
+34 error
+34 error     at makeError (D:\Repositories\temp\domus-componets\node_modules\execa\index.js:174:9)
+34 error     at D:\Repositories\temp\domus-componets\node_modules\execa\index.js:278:16
+34 error     at processTicksAndRejections (internal/process/task_queues.js:94:5)

@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "@domuscomponets/BoxCenter": "./packages/BoxCenter"
-  }
+  },
+  "gitHead": "ec6d2f10fb02ea2430ba42553932991958ed6cdf"
 }

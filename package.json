@@ -12,9 +12,13 @@
     "build": "lerna exec --parallel -- rollup -c ../../rollup.config.js",
     "build:components": "lerna run build"
   },
-  "repo":{
+  "repository":{
     "type" :"git",
     "url": "https://github.com/leguass7/domuscomponents.git"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
   },
   "peerDependencies": {
     "classnames": "^2.2.6",
